@@ -1,0 +1,18 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+}
+
+.header {
+  background-color: cadetblue;
+}
+
+.presentation {
+  margin-top: 0;
+}
+
+/* We will add an underline to the "pro" in programmer. And in order to do it, we'll have to use the "span" */
+
+.pro {
+  text-decoration: underline;
+}
