@@ -1,23 +1,112 @@
-/* Body Style */
+/* HTML Elements */
 
 body {
-  background-color: aquamarine;
+  background-color: #effffd;
   margin: 0;
   text-align: center;
 }
 
-/* --------------------------------------------------------------- */
-
-/* Banner Style */
-
-.header {
-  background-color: cadetblue;
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
 }
 
-/* Banner Text */
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #488fb1;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #3548b3;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  line-height: 2;
+}
+
+hr {
+  border: dotted 8px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+  color: rgb(221, 221, 221);
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #3548b3;
+  margin: auto 40px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Images */
+
+.top-cloud {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.irish-flag {
+  width: 25%;
+  height: 25%;
+}
+
+.html-logo {
+  width: 25%;
+  height: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.css-logo {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Top Container */
+
+.top-container {
+  background-color: #7eaad8;
+  padding-top: 100px;
+  position: relative;
+}
+
+/* Top Container Text */
 
 .my-name {
-  margin-top: 0;
+  margin-bottom: 0;
+  margin: 50px auto 0 auto;
+  font-size: 5rem;
+  color: #d8d2cb;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.programmer {
+  font-size: 2.5rem;
+  margin: 0 auto 0 auto;
+  color: #d8d2cb;
+  font-weight: normal;
 }
 
 /* We will add an underline to the "pro" in programmer. And in order to do it, we'll have to use the "span" */
@@ -26,11 +115,85 @@ body {
   text-decoration: underline;
 }
 
-/* --------------------------------------------------------------- */
-
-
-/* Banner Images */
+/* End of Top Container */
 
 /* --------------------------------------------------------------- */
 
+/* Middle Container */
 
+.middle-container {
+  padding: 100px 0 70px 0;
+}
+
+/* --------------------------------------------------------------- */
+
+/* About Me */
+
+.intro {
+  margin: 20px auto;
+  width: 55%;
+}
+
+/* End of About Me */
+
+/* --------------------------------------------------------------- */
+
+/* My Skills */
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+
+/* ---End of My Skills--- */
+
+/* --------------------------------------------------------------- */
+
+/* Contact Me */
+
+.contact-me {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #88c8f0);
+  background-image: -moz-linear-gradient(top, #0099ff, #88c8f0);
+  background-image: -ms-linear-gradient(top, #0099ff, #88c8f0);
+  background-image: -o-linear-gradient(top, #0099ff, #88c8f0);
+  background-image: linear-gradient(to bottom, #0099ff, #88c8f0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #88f0f0;
+  background-image: -webkit-linear-gradient(top, #88f0f0, #00bbff);
+  background-image: -moz-linear-gradient(top, #88f0f0, #00bbff);
+  background-image: -ms-linear-gradient(top, #88f0f0, #00bbff);
+  background-image: -o-linear-gradient(top, #88f0f0, #00bbff);
+  background-image: linear-gradient(to bottom, #88f0f0, #00bbff);
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Bottom Container */
+
+.bottom-container {
+  background-color: #7eaad8;
+  padding-top: 20px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
