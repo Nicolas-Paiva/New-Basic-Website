@@ -1,13 +1,22 @@
+/* Body Style */
+
 body {
   background-color: aquamarine;
   margin: 0;
+  text-align: center;
 }
+
+/* --------------------------------------------------------------- */
+
+/* Banner Style */
 
 .header {
   background-color: cadetblue;
 }
 
-.presentation {
+/* Banner Text */
+
+.my-name {
   margin-top: 0;
 }
 
@@ -16,3 +25,12 @@ body {
 .pro {
   text-decoration: underline;
 }
+
+/* --------------------------------------------------------------- */
+
+
+/* Banner Images */
+
+/* --------------------------------------------------------------- */
+
+
